@@ -6,29 +6,38 @@
   <link rel="stylesheet" href="mystyle.css">
   <title>LogIn</title>
 </head>
-<body>
-  <h1>welcom to my web site </h1>
-  <h2>amr</h2>
-  <div class="logbox">
-      <table>
-          <tbody>
-            <tr>
-              <label>user name </label>
-              <td><input type="text"  placeholder="name"></td>
-            </tr>
-            
-            <tr>
-              <td><label>password </label></td>
-              
-            </tr>
-            <tr><td><input type="password"  placeholder="xxxxxxxx"></td></tr>
+<body background="Reso/book.jpg">
 
-            <tr>
-              <td><input type="button" value="login"></td>
-            </tr>
-          </tbody>
-
-      </table>
+<div >
+  <div id="header">
+    <h1>Welcom to stuRefernces </h1>
   </div>
+      <div class="logbox">
+          <form method="post">
+              <div class="loginp">
+                <label>User name</label> <input type="text" class="inpbox" >
+              </div>
+
+              <div class="loginp">
+                <label>Password</label><input type="password" class="inpbox" >
+              </div>
+
+
+                <div class="boxsign"> 
+                  <div>
+                    <input type="submit" value="Sign in" id="signbut">
+                    
+                  </div>
+
+                  <div>
+                    <p id="Pmarg">New?<a href="www.google.com" id="newacc"> Create account</a></p>
+                  </div>
+                </div>   
+            
+
+          </form>
+      </div>
+  
+</div>  
 </body>
 </html>
