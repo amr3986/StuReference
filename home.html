@@ -43,10 +43,104 @@
     <div id ="slid">
 
 
+<div class="slideshow-container" style="width: auto">
+  <div class="mySlides fade w3-red">
+    <h1><b>Did You Know?</b></h1>
+    <h1><i>We plan to sell trips to the moon in the 2020s</i></h1>
+  </div>
+
+  <img class="mySlides" src="Reso/nat.jpg" style="width:70%" height= "180px">
+  
+
+  <div class="mySlides fade">
+    <p><span class="w3-tag w3-yellow">New!</span>
+    <p>6 Crystal Glasses</p>
+    <p>Only $99 !!!</p>
+  </div>
+
+  <img class="mySlides" src="img_manarola.jpg" style="width:100%">
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+
     </div>
     <div id="subcontainer">
     <div id="subsection">
       <label class="secLabel">Programing</label>
+
+      <p>
+        Choose a language 
+      </p>
+      
+      <ul>
+        <di class="Rescontainer">
+            <div class="dropdownReso">
+              <li><button class="Resbtn">Java</button>
+                <ul class="ResContent">
+                  <li><a href="https://www.w3schools.com/java/">Tutorial</a></li>
+                  <li><a href="https://www.w3schools.com/java/">Articles</a></li>
+                  <li><a href="https://www.w3schools.com/java/">online compiler</a></li>
+                </ul>
+              </li>
+            </div>
+            
+            <div class="dropdownReso">
+              <li><button class="Resbtn">Python</button>
+                <ul class="ResContent">
+                  <li><a href="https://www.w3schools.com/java/">Tutorial</a></li>
+                  <li><a href="https://www.w3schools.com/java/">Articles</a></li>
+                  <li><a href="https://www.w3schools.com/java/">online compiler</a></li>
+                </ul>
+              </li>
+            </div>
+
+            <div class="dropdownReso">
+              <li><button class="Resbtn">C++</button>
+                <ul class="ResContent">
+                  <li><a href="https://www.w3schools.com/java/">Tutorial</a></li>
+                  <li><a href="https://www.w3schools.com/java/">Articles</a></li>
+                  <li><a href="https://www.w3schools.com/java/">online compiler</a></li>
+                </ul>
+              </li>
+            </div>
+
+            <div class="dropdownReso">
+              <li><button class="Resbtn">Javascript</button>
+                <ul class="ResContent">
+                  <li><a href="https://www.w3schools.com/java/">Tutorial</a></li>
+                  <li><a href="https://www.w3schools.com/java/">Articles</a></li>
+                  <li><a href="https://www.w3schools.com/java/">online compiler</a></li>
+                </ul>
+              </li>
+            </div>
+
+
+            <div class="dropdownReso">
+              <li><button class="Resbtn">Python</button>
+                <ul class="ResContent">
+                  <li><a href="https://www.w3schools.com/java/">Tutorial</a></li>
+                  <li><a href="https://www.w3schools.com/java/">Articles</a></li>
+                  <li><a href="https://www.w3schools.com/java/">online compiler</a></li>
+                </ul>
+              </li>
+            </div>
+       </di>
+      </ul>
       
     </div>
     <div id="subsection">
